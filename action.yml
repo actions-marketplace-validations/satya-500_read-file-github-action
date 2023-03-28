@@ -1,6 +1,6 @@
-name: 'File Reader'
+name: 'GitHub Action File Reader'
 description: 'Read the contents of a file'
-author: 'André Storhaug'
+author: 'satya-500'
 branding:
   icon: 'file-text'
   color: 'blue'
@@ -16,5 +16,5 @@ outputs:
   contents:
     description: 'The file contents.'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
